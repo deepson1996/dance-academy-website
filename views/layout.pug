@@ -1,0 +1,22 @@
+doctype html
+html 
+    head 
+        title Hello Dance Academy
+        block scripts 
+        block style
+    body
+        nav#navbar.top 
+            ul
+                div#logo 
+                    img(src="/public/img/logo.png")
+                    | HDA
+                //- nested tags|
+                li #[a(href="/") Home]
+                li #[a(href="#") About]
+                li #[a(href="#") Services]
+                li #[a(href="#") Class info]
+                li #[a(href="/contact") Contact us] 
+        block content 
+        //- Sabai page maa aaune content lai talako footer jasaree rakhna milchha 
+        footer#footer
+            | Copyright &copy; 2019 danceAcademy.com | All rights reserved

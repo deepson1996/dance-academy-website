@@ -1,0 +1,45 @@
+extends layout.pug
+
+block scripts
+    script(src='/public/index.js')
+
+block style 
+    style
+        include ../public/style.css
+
+block content 
+    section#introSection 
+        div Welcome to hello dance academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            .card-box 
+                .card-img 
+                    img(src='/public/img/1.png')
+                .card-content 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        div.card
+            h3 Dance the way you like
+            .card-box 
+                .card-img 
+                    img(src='/public/img/2.png')
+                .card-content 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        div.card
+            h3 Expert Teaching
+            .card-box 
+                .card-img 
+                    img(src='/public/img/3.png')
+                .card-content 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+
+    section#sponsorSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/public/img/logo1.png", alt="Sponsor Image", class="spImage")
+            img(src="/public/img/logo2.png", alt="Sponsor Image", class="spImage")
+            img(src="/public/img/logo3.png", alt="Sponsor Image", class="spImage")
+            img(src="/public/img/logo4.png", alt="Sponsor Image", class="spImage")
+

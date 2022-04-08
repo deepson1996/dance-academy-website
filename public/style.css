@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: rgb(136, 3, 3);
+    padding: 13px 14px;
+    font-family: 'Indie Flower', cursive;
+}
+#navbar #logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px; 
+    font-size: 28px;  
+    margin-right: 40px; 
+}
+#navbar #logo img{
+    height: 42px;
+    filter: invert(1);  
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 18px 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+
+#introSection{
+    color: white;
+    background:center/cover no-repeat url("/public/bg.jpg");
+    height: 425px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Festive', cursive;
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+#introSection div.small{
+    font-size: 50px;
+}
+
+
+#sponsorSection{
+    height: 300px;
+    background-color: #ee9595b2;
+
+}
+#sponsorSection h2{
+   font-family: 'Indie Flower';
+   text-align: center;
+   padding-top: 12px;
+   font-weight: bolder;
+
+}
+
+#missionSection{
+    height: 325px;
+    margin: auto;    
+    width: 67%;
+    display: block;
+
+}
+#missionSection h2{
+   font-family: 'Indie Flower';
+   text-align: center;
+   padding-top: 12px;
+   font-weight: bolder;
+   font-size: 36px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 220px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin:0 12px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card .card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .card-box .card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card .card-box .card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px
+}
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color: #ee9595b2;
+}
+
+
+#sponsorSection h2{
+   font-size: 36px;
+   font-family: 'Indie Flower';
+   text-align: center;
+   padding-top: 12px;
+   font-weight: bolder;
+}
+#sponsors{
+    height: 191px;
+    max-width: 1000px;
+    margin: 23px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+    font-size: 20px;
+   font-family: 'Indie Flower';
+
+}
